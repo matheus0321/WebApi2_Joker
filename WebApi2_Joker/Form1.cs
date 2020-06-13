@@ -28,8 +28,13 @@ namespace WebApi2_Joker
                     if (response.IsSuccessStatusCode)
                     {
                         var JokerJsonString = await response.Content.ReadAsStringAsync();
-                        //test
-                        gdvDados.DataSource = JsonConvert.DeserializeObject<List<Books>>(JokerJsonString).ToList();
+                        var joker = new List<Joker>();
+
+                        var retorno = JsonConvert.DeserializeObject<Joker>(JokerJsonString);
+
+                        joker.Add(retorno);
+
+                        gdvDados.DataSource = joker;
                     }
                 }
             }

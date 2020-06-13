@@ -40,7 +40,7 @@
             // 
             this.txtURI.Location = new System.Drawing.Point(77, 17);
             this.txtURI.Name = "txtURI";
-            this.txtURI.Size = new System.Drawing.Size(202, 20);
+            this.txtURI.Size = new System.Drawing.Size(360, 20);
             this.txtURI.TabIndex = 1;
             // 
             // gdvDados
@@ -49,7 +49,7 @@
             this.gdvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gdvDados.Location = new System.Drawing.Point(-2, 43);
             this.gdvDados.Name = "gdvDados";
-            this.gdvDados.Size = new System.Drawing.Size(281, 190);
+            this.gdvDados.Size = new System.Drawing.Size(439, 190);
             this.gdvDados.TabIndex = 2;
             // 
             // btnObter
@@ -64,7 +64,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(178, 239);
+            this.btnFechar.Location = new System.Drawing.Point(117, 239);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(87, 23);
             this.btnFechar.TabIndex = 4;
@@ -87,7 +87,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSpringGreen;
-            this.ClientSize = new System.Drawing.Size(281, 265);
+            this.ClientSize = new System.Drawing.Size(438, 265);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.btnObter);
